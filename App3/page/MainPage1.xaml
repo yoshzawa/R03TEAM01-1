@@ -19,6 +19,9 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+        <Image x:Name="image"/>
+
+        <Button Text="Take Photo" Clicked="Button_Clicked" />
     </StackLayout>
 
 </ContentPage>
