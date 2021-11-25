@@ -5,13 +5,17 @@
 
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Xamarin Photo Test" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="Xamarin Photo Test" HorizontalTextAlignment="Center" 
+                   TextColor="White" FontSize="36"/>
         </Frame>
+        <ScrollView Orientation="Vertical">
 
-        <Image x:Name="image"/>
+            <Image x:Name="image"/>
 
+        </ScrollView>
         <Button Text="Take Photo" Clicked="Button_Clicked" />
-        
+
+
     </StackLayout>
 
 </ContentPage>
