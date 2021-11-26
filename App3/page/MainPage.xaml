@@ -8,6 +8,6 @@
 
     <local:MainPage2 Title="jc-21 web" />
 
-    <local:MainPage2 Title="notification" />
+    <local:MainPage3 Title="notification" />
     <ContentPage Title="Tab 3" />
 </TabbedPage>
