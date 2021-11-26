@@ -9,7 +9,6 @@ using Xamarin.Forms.Xaml;
 
 namespace App3.page
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage3 : ContentPage
     {
         INotificationManager notificationManager;
