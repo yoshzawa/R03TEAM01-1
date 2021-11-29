@@ -11,7 +11,7 @@ namespace App3
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new page.MainPage();
         }
 
         protected override void OnStart()
