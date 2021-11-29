@@ -20,7 +20,7 @@ namespace App3.page
             notificationManager = DependencyService.Get<INotificationManager>();
             notificationManager.NotificationReceived += (sender, eventArgs) =>
             {
-                var evtData = (NotificationEventArgs)eventArgs;
+                NotificationEventArgs evtData = (NotificationEventArgs)eventArgs;
                 ShowNotification(evtData.Title, evtData.Message);
             };
         }

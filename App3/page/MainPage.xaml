@@ -9,5 +9,10 @@
     <local:MainPage2 Title="jc-21 web" />
 
     <local:MainPage3 Title="notification" />
-    <ContentPage Title="Tab 3" />
+    <NavigationPage Title="QR CODE"                >
+        <x:Arguments>
+            <local:MainPage4 Title="QR CODE" />
+        </x:Arguments>
+    </NavigationPage>
+    <ContentPage Title="dummy" />
 </TabbedPage>
