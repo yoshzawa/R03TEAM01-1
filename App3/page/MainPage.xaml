@@ -11,7 +11,7 @@
     <local:MainPage3 Title="notification" />
     <NavigationPage Title="QR CODE"                >
         <x:Arguments>
-            <local:MainPage4 Title="QR CODE" />
+            <local:MainPage4 Title="QR CODE2" />
         </x:Arguments>
     </NavigationPage>
     <ContentPage Title="dummy" />
