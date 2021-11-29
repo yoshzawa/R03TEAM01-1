@@ -23,6 +23,7 @@ namespace App3.page
                 var evtData = (NotificationEventArgs)eventArgs;
                 ShowNotification(evtData.Title, evtData.Message);
             };
+            DisplayAlert("MainPage3", "MainPage3","Cancel");
         }
         void OnSendClick(object sender, EventArgs e)
         {
