@@ -23,7 +23,6 @@ namespace App3.page
                 var evtData = (NotificationEventArgs)eventArgs;
                 ShowNotification(evtData.Title, evtData.Message);
             };
-            DisplayAlert("MainPage3", "MainPage3","Cancel");
         }
         void OnSendClick(object sender, EventArgs e)
         {
@@ -31,6 +30,8 @@ namespace App3.page
             string title = $"Local Notification #{notificationNumber}";
             string message = $"You have now received {notificationNumber} notifications!";
             notificationManager.SendNotification(title, message);
+            DisplayAlert("MainPage3", "OnSendClick", "Continue");
+
         }
 
         void OnScheduleClick(object sender, EventArgs e)
@@ -39,6 +40,7 @@ namespace App3.page
             string title = $"Local Notification #{notificationNumber}";
             string message = $"You have now received {notificationNumber} notifications!";
             notificationManager.SendNotification(title, message, DateTime.Now.AddSeconds(10));
+            DisplayAlert("MainPage3", "OnScheduleClick", "Continue");
         }
 
         void ShowNotification(string title, string message)
@@ -51,6 +53,8 @@ namespace App3.page
                 };
                 stackLayout.Children.Add(msg);
             });
+            DisplayAlert("MainPage3", "ShowNotification", "Continue");
+
         }
     }
 }
