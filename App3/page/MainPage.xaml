@@ -9,5 +9,6 @@
     <local:MainPage2 Title="jc-21 web" />
 
     <local:MainPage3 Title="notification" />
-    <ContentPage Title="Tab 3" />
+    <local:MainPage4 Title="Page4" />
+    <ContentPage Title="Tab 5" />
 </TabbedPage>
