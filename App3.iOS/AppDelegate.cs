@@ -26,6 +26,8 @@ namespace App3.iOS
             global::Xamarin.Forms.Forms.Init();
 
             UNUserNotificationCenter.Current.Delegate = new iOSNotificationReceiver();
+            ZXing.Net.Mobile.Forms.iOS.Platform.Init();
+
 
             LoadApplication(new App());
             return base.FinishedLaunching(app, options);
